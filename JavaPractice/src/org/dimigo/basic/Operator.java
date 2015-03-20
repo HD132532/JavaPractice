@@ -16,9 +16,10 @@ public class Operator {
 		if(s1>s2)
 			System.out.println("사다리꼴이 평행사변형보다 "+(s1-s2)+" 더 큽니다.");
 		
+		else if(s1==s2)
+			System.out.println("두 도형의 넓이가 같습니다.");
+		
 		else
-			System.out.println("평행사변형이 사다리꼴보다 "+(s2-s1)+" 더 큽니다.");
-		
-		
+			System.out.println("평행사변형이 사다리꼴보다 "+(s2-s1)+" 더 큽니다.");		
 	}
 }
