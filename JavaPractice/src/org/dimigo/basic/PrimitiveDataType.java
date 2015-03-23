@@ -10,6 +10,7 @@ public class PrimitiveDataType {
 		double height=161.8;
 		float weight=(float)44.3;
 		char blood='A';
+		
 		if (bgender) gender="여자";
 		else gender="남자";
 
