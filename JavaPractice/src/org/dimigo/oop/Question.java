@@ -33,7 +33,7 @@ public class Question {
 		else
 			System.out.println("틀렸습니다.");
 		
-		System.out.println("(1+1+1+1+1+1+1+1+1+1+1+1) * 0=?");
+		System.out.println("(1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1) * 0=?");
 		answer = scanner.nextLine();
 		if("0".equals(answer))
 			System.out.println("정답입니다.");
