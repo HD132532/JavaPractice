@@ -21,5 +21,26 @@ public class FigureTest {
 		System.out.println("원의 넓이 : "+c.calcArea());
 		System.out.println("삼각형 넓이 : "+t.calcArea());
 		System.out.println("사각형 넓이 : "+r.calcArea());
+		
+		System.out.println();
+		
+		c.printCenter();
+		t.printCenter();
+		r.printCenter();
+		
+		System.out.println();
+		
+		System.out.println("-- 중심좌표 이동 (x, y축 5씩)");
+		
+		System.out.println();
+		
+		c.moveFigure(5, 5);
+		t.moveFigure(5, 5);
+		r.moveFigure(5, 5);
+		
+		c.printCenter();
+		t.printCenter();
+		r.printCenter();
+		
 	}
 }
