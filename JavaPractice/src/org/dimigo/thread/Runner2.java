@@ -2,16 +2,6 @@ package org.dimigo.thread;
 
 import java.util.Random;
 
-/*
- * <pre>
- * org.dimigo.thread
- * 		|_ Runner
- * 1. 개요 : 
- * 2. 작성일 : 2015. 11. 4.
- * </pre>
- * @author 신준섭
- *
- */
 public class Runner2 implements Runnable{
 	private String name;
 	
